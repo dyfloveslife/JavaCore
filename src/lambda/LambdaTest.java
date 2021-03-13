@@ -1,6 +1,7 @@
 package lambda;
 
 import javax.swing.*;
+import java.awt.*;
 import java.util.Arrays;
 import java.util.Date;
 
@@ -18,8 +19,12 @@ public class LambdaTest {
         Arrays.sort(planets, (first, second) -> first.length() - second.length());
         System.out.println(Arrays.toString(planets));
 
-        Timer t = new Timer(1000, event ->
-                System.out.println("The time is " + new Date()));
+        Timer t = new Timer(1000, event -> {
+            System.out.println("The time is " + new Date());
+            Toolkit.getDefaultToolkit().beep();
+
+        });
+
         t.start();
 
         // keep program running until user selects "OK"
