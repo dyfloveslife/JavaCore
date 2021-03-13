@@ -42,6 +42,7 @@ class TalkingClock {
         @Override
         public void actionPerformed(ActionEvent e) {
             System.out.println("At the tone, the time is " + new Date());
+            // or use TalkingClock.this.beep
             if (beep) Toolkit.getDefaultToolkit().beep();
         }
     }
