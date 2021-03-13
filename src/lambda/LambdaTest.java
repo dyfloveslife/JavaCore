@@ -22,7 +22,6 @@ public class LambdaTest {
         Timer t = new Timer(1000, event -> {
             System.out.println("The time is " + new Date());
             Toolkit.getDefaultToolkit().beep();
-
         });
 
         t.start();
