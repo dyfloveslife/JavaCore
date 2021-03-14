@@ -4,4 +4,4 @@ Source code of Core Java Volume Ⅰand Ⅱ.
 
 
 TODO:
-- 8.6~8.9
+- Chapter 8.6 to Chapter 8.9
