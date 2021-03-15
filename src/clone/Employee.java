@@ -8,6 +8,10 @@ public class Employee implements Cloneable {
     private double salary;
     private Date hireDay;
 
+    public Employee(String name) {
+        this.name = name;
+    }
+
     public Employee(String name, double salary) {
         this.name = name;
         this.salary = salary;
