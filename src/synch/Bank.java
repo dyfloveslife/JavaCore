@@ -22,7 +22,6 @@ public class Bank {
         try {
             while (accounts[from] < amount) {
                 sufficientFunds.await();
-                ;
             }
             System.out.print(Thread.currentThread());
             accounts[from] -= amount;
