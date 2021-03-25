@@ -20,9 +20,8 @@ public class LotteryArrayTest {
         }
 
         for (int[] row : odds) {
-            for (int odd : row) {
+            for (int odd : row)
                 System.out.printf("%4d", odd);
-            }
             System.out.println();
         }
     }
