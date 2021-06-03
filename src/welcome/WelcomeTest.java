@@ -9,5 +9,6 @@ public class WelcomeTest {
         }
         System.out.println();
         System.out.println("123");
+        System.out.println("456");
     }
 }
