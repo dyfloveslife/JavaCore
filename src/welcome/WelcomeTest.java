@@ -8,5 +8,7 @@ public class WelcomeTest {
             System.out.print("=");
         }
         System.out.println();
+
+        System.out.println("Test Git operation");
     }
 }
