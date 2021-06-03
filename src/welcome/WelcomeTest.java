@@ -8,5 +8,6 @@ public class WelcomeTest {
             System.out.print("=");
         }
         System.out.println();
+        System.out.println("123");
     }
 }
